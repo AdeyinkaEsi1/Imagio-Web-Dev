@@ -1,0 +1,89 @@
+body {
+  margin: 0%;
+}
+
+.nav-bar {
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  align-content: center;
+}
+
+#nav-list a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin-left: 14px;
+}
+
+#search {
+  align-content: center;
+}
+
+
+.dogs {
+  display: grid;
+}
+
+.dog-breed {
+  padding-left: 14px;
+}
+
+.cat-breed {
+  padding-left: 14px;
+}
+
+.dogs li, a {
+  padding-top: 6px;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+.cats {
+  display: grid;
+}
+
+.cats li, a {
+  padding-top: 6px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+aside {
+  width: 20%;
+}
+
+.container {
+  display: flex;
+}
+
+.products {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 80px;
+  align-content: center;  
+}
