@@ -4,17 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Papilo perfumes</title>
+    <title>Document</title>
+    <link href="src/output.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="">
 
-    <p id="one">my name is papilo Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ex quia, expedita
-        nam et illo.</p>
-    <p id="one">my name is papilo</p>
-    <p id="one">my name is papilo</p>
+    <main class="bg-blue-400 min-h-lvh flex">
+        <div class="mx-auto flex flex-col mb-10 justify-center">
+            <h1 class="bg-amber-300 p-4 mb-5">PREDICTION FORM</h1>
+            <form action="#" class="border-3 border-gray-600 flex flex-col bg-gray-300">
+                <select name="prediction" id="pred">
+                    <option value="first match">CLUB1 VS CLUB2</option>
+                    <option value="first match">CLUB3 VS CLUB4</option>
+                    <option value="first match">CLUB5 VS CLUB6</option>
+                    <option value="first match">CLUB7 VS CLUB8</option>
+                    <option value="first match">CLUB9 VS CLUB10</option>
+                </select>
+                <input type="text" class="p-10 h-32 border-2 ring-gray-500 ring-2 mb-5 mt-5">
+                <button type="submit" class="bg-black text-white p-4 border-gray-500 rounded-full ">Submit</button>
+            </form>
+        </div>
+        
+
+    </main>
+
+
 
 </body>
 
 </html>
+
+
+
+<!-- npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch -->
